@@ -1,0 +1,39 @@
+slug: yugabyte
+name: YugabyteDB Managed
+category: db
+contracting_entity: Yugabyte, Inc.
+ultimate_parent: Yugabyte, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - ap
+subprocessors:
+  - aws
+  - gcp
+  - azure
+eu_alternatives:
+  - aiven
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation running on all three hyperscalers. Distributed SQL with EU region
+  options; US contracting entity anchors the exposure.
+sources:
+  - https://www.yugabyte.com/privacy-policy
+  - https://www.yugabyte.com/privacy-policy
+  - https://www.yugabyte.com/privacy-policy
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted YugabyteDB (Apache 2 core) on your own EU hardware is a green path; only the
+  Managed Cloud service is what this rates.

@@ -1,0 +1,33 @@
+slug: fly
+name: Fly.io
+category: hosting
+contracting_entity: Fly.io, Inc.
+ultimate_parent: Fly.io, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - global-edge
+subprocessors: []
+eu_alternatives:
+  - scaleway
+  - hetzner
+  - upcloud
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: red
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation, operates its own global edge-container network. EU regions (Frankfurt,
+  Amsterdam, Madrid) available; the contracting entity's US anchor stands.
+sources:
+  - https://fly.io/security
+  - https://fly.io/legal/privacy-policy/
+  - https://fly.io/
+last_reviewed: 2026-09-11
+notes: null

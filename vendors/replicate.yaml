@@ -1,0 +1,32 @@
+slug: replicate
+name: Replicate
+category: ai
+contracting_entity: Replicate, Inc.
+ultimate_parent: Replicate, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - gcp
+eu_alternatives:
+  - mistral
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation running on Google Cloud US regions. Model-inference API for
+  open-source models; every request transits US infrastructure.
+sources:
+  - https://replicate.com/terms
+  - https://replicate.com/privacy
+  - https://replicate.com/
+last_reviewed: 2026-09-11
+notes: null

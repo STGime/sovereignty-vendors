@@ -1,0 +1,35 @@
+slug: teamcity-cloud
+name: TeamCity Cloud (JetBrains)
+category: ci
+contracting_entity: JetBrains s.r.o.
+ultimate_parent: JetBrains s.r.o.
+parent_jurisdiction: CZ
+entity_jurisdiction: CZ
+hosting_regions:
+  - eu
+  - us
+subprocessors:
+  - aws
+eu_alternatives:
+  - codemagic
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  Czech s.r.o. (Prague HQ), EU-only support ops. TeamCity Cloud runs on AWS regions; pinning
+  EU brings location to amber but the entity anchor is EU-adequate throughout.
+sources:
+  - https://www.jetbrains.com/legal
+  - https://www.jetbrains.com/legal/docs/privacy/privacy/
+  - https://www.jetbrains.com/company/
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted TeamCity Server on your own EU infrastructure is a fully sovereign path; only
+  the Cloud tier is what this rates.

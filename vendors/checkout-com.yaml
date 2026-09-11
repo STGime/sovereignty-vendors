@@ -1,0 +1,36 @@
+slug: checkout-com
+name: Checkout.com
+category: payments
+contracting_entity: Checkout Ltd
+ultimate_parent: Checkout Ltd
+parent_jurisdiction: GB
+entity_jurisdiction: GB
+hosting_regions:
+  - eu
+  - us
+  - ap
+subprocessors:
+  - aws
+eu_alternatives:
+  - mollie
+  - adyen
+transfer_mechanism: adequacy
+operational_access_regions:
+  - GB
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  UK limited company (London HQ), FCA-regulated payment institution. Global card acquiring
+  with EU-region hosting on AWS. UK adequacy covers transfers.
+sources:
+  - https://www.checkout.com/
+  - https://www.checkout.com/legal/privacy-policy
+  - https://www.checkout.com/
+last_reviewed: 2026-09-11
+notes: null

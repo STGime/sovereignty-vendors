@@ -1,0 +1,35 @@
+slug: azure-blob
+name: Azure Blob Storage
+category: storage
+contracting_entity: Microsoft Ireland Operations Limited
+ultimate_parent: Microsoft Corporation
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - us
+  - eu
+  - ap
+subprocessors: []
+eu_alternatives:
+  - scaleway
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Azure Blob Storage inherits Azure's exposure: EU-region buckets are available but the
+  contracting entity's ultimate parent (Microsoft Corp.) is US-listed.
+sources:
+  - https://azure.microsoft.com/en-us/products/storage/blobs
+  - https://learn.microsoft.com/en-us/azure/compliance/
+  - https://www.microsoft.com/en-us/trust-center/privacy
+last_reviewed: 2026-09-11
+notes: null

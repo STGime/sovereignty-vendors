@@ -1,0 +1,34 @@
+slug: statuspage
+name: Statuspage (Atlassian)
+category: monitoring
+contracting_entity: Atlassian Pty Ltd
+ultimate_parent: Atlassian Corporation
+parent_jurisdiction: US
+entity_jurisdiction: AU
+hosting_regions:
+  - us
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - AU
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Statuspage is an Atlassian product; ultimate parent Atlassian Corporation is Delaware-listed
+  (moved from UK in 2022) despite the Australian operational entity. Hosted on AWS US.
+sources:
+  - https://www.atlassian.com/legal/data-processing-addendum
+  - https://www.atlassian.com/legal/subprocessors
+  - https://www.atlassian.com/legal/privacy-policy
+last_reviewed: 2026-09-11
+notes: >
+  Atlassian re-domiciled its ultimate parent from UK to US in 2022 following the direct US IPO —
+  a case where jurisdiction moved in the wrong direction for EU customers.

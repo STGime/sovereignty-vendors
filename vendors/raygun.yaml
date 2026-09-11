@@ -1,0 +1,33 @@
+slug: raygun
+name: Raygun
+category: error
+contracting_entity: Raygun Ltd
+ultimate_parent: Raygun Ltd
+parent_jurisdiction: NZ
+entity_jurisdiction: NZ
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: adequacy
+operational_access_regions:
+  - NZ
+  - US
+ratings:
+  entity_control: amber
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  New Zealand Ltd, covered by the EU-NZ adequacy decision. Not subject to the CLOUD Act; runs
+  on AWS with EU-Frankfurt region option. NZ operational access adds mild exposure.
+sources:
+  - https://raygun.com/privacy
+  - https://raygun.com/privacy
+  - https://raygun.com/privacy
+last_reviewed: 2026-09-11
+notes: null

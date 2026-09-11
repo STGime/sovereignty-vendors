@@ -1,0 +1,39 @@
+slug: clickhouse
+name: ClickHouse Cloud
+category: db
+contracting_entity: ClickHouse, Inc.
+ultimate_parent: ClickHouse, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - ap
+subprocessors:
+  - aws
+  - gcp
+  - azure
+eu_alternatives:
+  - aiven
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+  - NL
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation running on all three hyperscalers. EU regions available; the US
+  contracting entity plus hyperscaler dependencies both apply CLOUD Act exposure.
+sources:
+  - https://clickhouse.com/privacy-policy
+  - https://clickhouse.com/privacy-policy
+  - https://clickhouse.com/legal/privacy-policy
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted ClickHouse (Apache 2) on your own EU hardware is a fully sovereign path; only
+  ClickHouse Cloud is what this rates.

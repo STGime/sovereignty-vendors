@@ -1,0 +1,32 @@
+slug: ably
+name: Ably
+category: communication
+contracting_entity: Ably Real-Time Ltd
+ultimate_parent: Ably Real-Time Ltd
+parent_jurisdiction: GB
+entity_jurisdiction: GB
+hosting_regions:
+  - global-edge
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: adequacy
+operational_access_regions:
+  - GB
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  UK limited company (London HQ), realtime pub-sub over WebSockets. Global edge on AWS regions;
+  UK adequacy covers transfers.
+sources:
+  - https://ably.com/privacy
+  - https://ably.com/privacy
+  - https://ably.com/privacy
+last_reviewed: 2026-09-11
+notes: null

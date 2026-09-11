@@ -1,0 +1,34 @@
+slug: meilisearch
+name: Meilisearch Cloud
+category: other
+contracting_entity: Meili SAS
+ultimate_parent: Meili SAS
+parent_jurisdiction: FR
+entity_jurisdiction: FR
+hosting_regions:
+  - eu
+  - us
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  French SAS (Paris HQ), open-source search engine with a managed cloud offering on AWS. EU
+  region available; the Meili SAS anchor is French.
+sources:
+  - https://www.meilisearch.com/privacy
+  - https://www.meilisearch.com/privacy-policy
+  - https://www.meilisearch.com/
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted Meilisearch (OSS, MIT) on your own EU hardware is a fully sovereign path; only
+  Meilisearch Cloud is what this rates.

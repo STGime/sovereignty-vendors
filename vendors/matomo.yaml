@@ -1,0 +1,36 @@
+slug: matomo
+name: Matomo Cloud
+category: analytics
+contracting_entity: InnoCraft Ltd
+ultimate_parent: InnoCraft Ltd
+parent_jurisdiction: NZ
+entity_jurisdiction: NZ
+hosting_regions:
+  - de
+  - nz
+subprocessors: []
+eu_alternatives:
+  - plausible
+  - simpleanalytics
+transfer_mechanism: adequacy
+operational_access_regions:
+  - NZ
+ratings:
+  entity_control: amber
+  data_location: green
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  New Zealand Ltd (InnoCraft); Matomo Cloud EU customers land on Frankfurt hosting. NZ has an
+  EU adequacy decision. Not subject to the CLOUD Act; the NZ parent-jurisdiction adds mild
+  exposure.
+sources:
+  - https://matomo.org/matomo-cloud-dpa/
+  - https://matomo.org/privacy/
+  - https://matomo.org/
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted Matomo (OSS) on your own EU hardware is a green path — no cross-border transfer,
+  no NZ parent involved. This rating covers Matomo Cloud only.

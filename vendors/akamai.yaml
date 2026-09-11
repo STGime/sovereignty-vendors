@@ -1,0 +1,32 @@
+slug: akamai
+name: Akamai
+category: cdn
+contracting_entity: Akamai Technologies, Inc.
+ultimate_parent: Akamai Technologies, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - global-edge
+subprocessors: []
+eu_alternatives:
+  - bunny
+  - keycdn
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NASDAQ-listed US corporation (AKAM). Global edge CDN with EU-only pinning available; the
+  contracting entity and control plane are US.
+sources:
+  - https://www.akamai.com/privacy
+  - https://www.akamai.com/legal
+  - https://www.akamai.com/
+last_reviewed: 2026-09-11
+notes: null

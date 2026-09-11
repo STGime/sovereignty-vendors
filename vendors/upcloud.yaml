@@ -1,0 +1,36 @@
+slug: upcloud
+name: UpCloud
+category: hosting
+contracting_entity: UpCloud Ltd
+ultimate_parent: UpCloud Ltd
+parent_jurisdiction: FI
+entity_jurisdiction: FI
+hosting_regions:
+  - fi-hel
+  - de-fra
+  - nl-ams
+  - es-mad
+  - pl-waw
+subprocessors: []
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: green
+  operational_access: green
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: green
+one_line_reason: >
+  Finnish Ltd, private, EU-headquartered with datacentres across Helsinki, Frankfurt,
+  Amsterdam, Madrid, Warsaw. No US corporate ownership.
+sources:
+  - https://upcloud.com/legal/data-processing-agreement
+  - https://upcloud.com/legal/privacy-policy
+  - https://upcloud.com/
+last_reviewed: 2026-09-11
+notes: >
+  UpCloud also operates PoPs in Singapore, Chicago, San Jose, and Sydney. Workloads placed
+  outside EU regions lose the data-location benefit even though the entity remains Finnish.

@@ -1,0 +1,39 @@
+slug: amazon-ses
+name: Amazon SES
+category: email
+contracting_entity: Amazon Web Services EMEA SARL
+ultimate_parent: Amazon.com, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - us-east-1
+  - eu-west-1
+  - eu-central-1
+  - ap-southeast-1
+subprocessors: []
+eu_alternatives:
+  - brevo
+  - mailjet
+  - scaleway
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Amazon SES inherits AWS's exposure: the Luxembourg contracting entity's ultimate parent
+  (Amazon.com, Inc.) is US-incorporated, so an SES EU region is still reachable under CLOUD Act.
+sources:
+  - https://aws.amazon.com/ses/
+  - https://aws.amazon.com/service-terms/
+  - https://aws.amazon.com/compliance/gdpr-center/
+last_reviewed: 2026-09-11
+notes: >
+  Rated separately from `aws` because users search "is Amazon SES GDPR-compliant" as a
+  distinct query. The rating mirrors AWS's per the corporate anchor.

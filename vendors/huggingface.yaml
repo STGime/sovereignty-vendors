@@ -1,0 +1,37 @@
+slug: huggingface
+name: Hugging Face
+category: ai
+contracting_entity: Hugging Face, Inc.
+ultimate_parent: Hugging Face, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - aws
+eu_alternatives:
+  - mistral
+  - aleph-alpha
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - FR
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation with French engineering roots and Paris office; Inference Endpoints and
+  Spaces run on AWS regions. EU region available; the US contracting entity remains.
+sources:
+  - https://huggingface.co/terms-of-service
+  - https://huggingface.co/privacy
+  - https://huggingface.co/
+last_reviewed: 2026-09-11
+notes: >
+  Hugging Face's French founder team is often cited as making it "sort of European" — but the
+  contracting entity is Delaware. Self-hosted open-source models are jurisdiction-neutral.

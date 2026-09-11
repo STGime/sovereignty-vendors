@@ -1,0 +1,33 @@
+slug: livekit
+name: LiveKit
+category: communication
+contracting_entity: LiveKit, Inc.
+ultimate_parent: LiveKit, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - global-edge
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation, WebRTC SFU cloud on AWS. Global edge but US contracting entity;
+  self-hosted LiveKit OSS is the sovereign path.
+sources:
+  - https://livekit.io/legal
+  - https://livekit.io/legal/subprocessors
+  - https://livekit.io/legal/privacy-policy
+last_reviewed: 2026-09-11
+notes: >
+  LiveKit OSS (Apache 2) self-hosted on your own EU infrastructure is a fully sovereign path;
+  only LiveKit Cloud is what this rates.

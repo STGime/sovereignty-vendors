@@ -1,0 +1,35 @@
+slug: linode
+name: Linode (Akamai)
+category: hosting
+contracting_entity: Linode LLC
+ultimate_parent: Akamai Technologies, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - ap
+subprocessors: []
+eu_alternatives:
+  - scaleway
+  - hetzner
+  - upcloud
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Acquired by Akamai in 2022; Linode LLC's ultimate parent is Akamai Technologies (NASDAQ:
+  AKAM). EU regions (Frankfurt, London, Amsterdam, Stockholm) available; the US anchor stands.
+sources:
+  - https://www.linode.com/legal-dpa/
+  - https://www.linode.com/privacy
+  - https://www.linode.com/legal-privacy/
+last_reviewed: 2026-09-11
+notes: null
