@@ -1,32 +1,37 @@
 slug: checkly
 name: Checkly
 category: monitoring
-contracting_entity: Checkly Groningen B.V.
-ultimate_parent: Checkly Groningen B.V.
-parent_jurisdiction: NL
-entity_jurisdiction: NL
+contracting_entity: Checkly Inc.
+ultimate_parent: Checkly Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
 hosting_regions:
   - eu
   - us
 subprocessors:
   - aws
-eu_alternatives: []
-transfer_mechanism: none
+eu_alternatives:
+  - grafana-cloud
+transfer_mechanism: DPF
 operational_access_regions:
-  - EU
+  - US
+  - DE
 ratings:
-  entity_control: green
+  entity_control: red
   data_location: amber
-  operational_access: green
+  operational_access: amber
   subprocessor_chain: amber
-  transfer_mechanism: green
-  overall: amber
+  transfer_mechanism: amber
+  overall: red
 one_line_reason: >
-  Dutch B.V. (Berlin engineering office), EU-only support ops. Synthetic + API monitoring
-  runs from AWS regions worldwide; pinning EU makes location amber.
+  Checkly Inc. is US-incorporated (Boston HQ); Checkly GmbH is the German affiliate for
+  engineering ops but not the contracting entity. Synthetic monitoring on AWS with EU region;
+  the US corporate anchor stands.
 sources:
   - https://www.checklyhq.com/privacy
   - https://www.checklyhq.com/docs/
   - https://www.checklyhq.com/
 last_reviewed: 2026-09-11
-notes: null
+notes: >
+  Frequently miscategorised as a Berlin / EU vendor because engineering is largely there; the
+  contracting entity and legal anchor are US-based.

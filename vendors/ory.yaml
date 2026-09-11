@@ -3,32 +3,35 @@ name: Ory Network
 category: auth
 contracting_entity: Ory Corp
 ultimate_parent: Ory Corp
-parent_jurisdiction: DE
-entity_jurisdiction: DE
+parent_jurisdiction: US
+entity_jurisdiction: US
 hosting_regions:
   - eu
   - us
 subprocessors: []
-eu_alternatives: []
-transfer_mechanism: none
+eu_alternatives:
+  - eurobase
+transfer_mechanism: DPF
 operational_access_regions:
-  - EU
+  - US
+  - DE
 ratings:
-  entity_control: green
-  data_location: green
-  operational_access: green
+  entity_control: red
+  data_location: amber
+  operational_access: amber
   subprocessor_chain: green
-  transfer_mechanism: green
-  overall: green
+  transfer_mechanism: amber
+  overall: red
 one_line_reason: >
-  German-headquartered Munich; Ory Network cloud runs on EU regions with a US region for
-  latency, contracting entity is German. OSS core (Kratos, Hydra, Keto, Oathkeeper) is
-  self-hostable.
+  Ory Corp is a Delaware C-corp with engineering presence in Munich; Ory Germany GmbH is the
+  EEA GDPR representative, not the contracting entity. Ory Network Cloud has an EU region but
+  the corporate anchor is US.
 sources:
-  - https://www.ory.sh/privacy
   - https://www.ory.sh/tos/
+  - https://www.ory.sh/privacy
   - https://www.ory.sh/
 last_reviewed: 2026-09-11
 notes: >
-  Self-hosted Ory OSS on your own EU hardware is a fully sovereign path. The rating covers the
-  Ory Network SaaS.
+  Self-hosted Ory OSS (Kratos, Hydra, Keto, Oathkeeper — Apache 2) on your own EU hardware
+  removes the US anchor entirely — that path is fully sovereign. Only the Ory Network SaaS
+  cloud is what this rating covers.
