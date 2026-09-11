@@ -1,0 +1,32 @@
+slug: perplexity
+name: Perplexity
+category: ai
+contracting_entity: Perplexity AI, Inc.
+ultimate_parent: Perplexity AI, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - aws
+eu_alternatives:
+  - mistral
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation running on AWS US regions. Search + LLM API; no EU tenancy option, and
+  every query transits US infrastructure by design.
+sources:
+  - https://www.perplexity.ai/hub/legal/perplexity-privacy-policy
+  - https://www.perplexity.ai/hub/legal/perplexity-terms-of-service
+  - https://www.perplexity.ai/
+last_reviewed: 2026-09-11
+notes: null

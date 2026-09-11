@@ -1,0 +1,41 @@
+slug: mongodb
+name: MongoDB Atlas
+category: db
+contracting_entity: MongoDB, Inc.
+ultimate_parent: MongoDB, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - ap
+subprocessors:
+  - aws
+  - gcp
+  - azure
+eu_alternatives:
+  - aiven
+  - eurobase
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NASDAQ-listed US corporation (MDB). Atlas runs on all three hyperscalers with EU region
+  options; the US contracting entity and US-listed parent anchor CLOUD Act exposure.
+sources:
+  - https://www.mongodb.com/legal/dpa
+  - https://www.mongodb.com/legal
+  - https://www.mongodb.com/legal/privacy-policy
+last_reviewed: 2026-09-11
+notes: >
+  Self-managed MongoDB Community Server on EU hardware is a green path; Atlas Cloud is the SaaS
+  this rating covers.

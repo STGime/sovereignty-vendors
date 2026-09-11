@@ -1,0 +1,36 @@
+slug: paypal
+name: PayPal
+category: payments
+contracting_entity: PayPal (Europe) S.à r.l. et Cie, S.C.A.
+ultimate_parent: PayPal Holdings, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - us
+  - eu
+subprocessors: []
+eu_alternatives:
+  - mollie
+  - adyen
+  - klarna
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - LU
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  PayPal Europe is Luxembourg-licensed as a bank, but ultimate parent PayPal Holdings, Inc. is
+  US-listed. CLOUD Act exposure follows the parent, not the EU banking licence.
+sources:
+  - https://www.paypal.com/uk/webapps/mpp/ua/privacy-full
+  - https://www.paypal.com/us/webapps/mpp/ua/legalhub-full
+  - https://www.paypal.com/
+last_reviewed: 2026-09-11
+notes: null

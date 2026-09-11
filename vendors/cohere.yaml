@@ -1,0 +1,39 @@
+slug: cohere
+name: Cohere
+category: ai
+contracting_entity: Cohere Inc.
+ultimate_parent: Cohere Inc.
+parent_jurisdiction: CA
+entity_jurisdiction: CA
+hosting_regions:
+  - us
+  - eu
+  - ca
+subprocessors:
+  - aws
+  - gcp
+eu_alternatives:
+  - mistral
+  - aleph-alpha
+transfer_mechanism: adequacy
+operational_access_regions:
+  - CA
+  - US
+ratings:
+  entity_control: amber
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  Canadian corporation (Toronto HQ), covered by the EU-Canada adequacy decision. Runs on AWS
+  and GCP; not subject to the CLOUD Act, but hyperscaler subprocessors do carry exposure.
+sources:
+  - https://cohere.com/terms-of-use
+  - https://cohere.com/privacy
+  - https://cohere.com/
+last_reviewed: 2026-09-11
+notes: >
+  Canadian PIPEDA adequacy applies. Cohere has US operations that could bring some data flows
+  under US law — check per-product deployment.

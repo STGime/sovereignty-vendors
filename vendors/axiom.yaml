@@ -1,0 +1,33 @@
+slug: axiom
+name: Axiom
+category: monitoring
+contracting_entity: Axiom, Inc.
+ultimate_parent: Axiom, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - aws
+eu_alternatives:
+  - grafana-cloud
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation on AWS. Structured event ingestion for logs + traces; EU region on
+  AWS Frankfurt available, US contracting entity applies CLOUD Act.
+sources:
+  - https://axiom.co/privacy
+  - https://axiom.co/privacy
+  - https://axiom.co/privacy
+last_reviewed: 2026-09-11
+notes: null

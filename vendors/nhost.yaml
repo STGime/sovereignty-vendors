@@ -1,0 +1,36 @@
+slug: nhost
+name: Nhost
+category: baas
+contracting_entity: Nhost AB
+ultimate_parent: Nhost AB
+parent_jurisdiction: SE
+entity_jurisdiction: SE
+hosting_regions:
+  - eu
+  - us
+  - ap
+subprocessors:
+  - aws
+eu_alternatives:
+  - eurobase
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  Swedish AB, EU-only operational access. Runs on AWS regions worldwide; pinning EU
+  keeps data location safe, but AWS EMEA subprocessor drags the chain to amber.
+sources:
+  - https://nhost.io/legal
+  - https://nhost.io/legal/privacy-policy
+  - https://nhost.io/
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted Nhost stack on your own EU infrastructure removes the AWS dependency; the Cloud
+  service is what this rates.

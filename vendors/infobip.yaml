@@ -1,0 +1,33 @@
+slug: infobip
+name: Infobip
+category: communication
+contracting_entity: Infobip Ltd
+ultimate_parent: Infobip Ltd
+parent_jurisdiction: HR
+entity_jurisdiction: HR
+hosting_regions:
+  - eu
+  - global
+subprocessors: []
+eu_alternatives:
+  - gatewayapi
+  - bird
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: green
+  operational_access: green
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: green
+one_line_reason: >
+  Croatian Ltd (Vodnjan HQ), private, operates its own global SMS + omnichannel network. EU
+  contracting entity for EU customers; no US corporate control.
+sources:
+  - https://www.infobip.com/privacy
+  - https://www.infobip.com/about
+  - https://www.infobip.com/
+last_reviewed: 2026-09-11
+notes: null

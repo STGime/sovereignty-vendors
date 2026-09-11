@@ -1,0 +1,30 @@
+slug: klarna
+name: Klarna
+category: payments
+contracting_entity: Klarna Bank AB
+ultimate_parent: Klarna Bank AB
+parent_jurisdiction: SE
+entity_jurisdiction: SE
+hosting_regions:
+  - eu
+subprocessors: []
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: green
+  operational_access: green
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: green
+one_line_reason: >
+  Swedish AB, licensed as a bank by the Swedish Financial Supervisory Authority (Finansinspektionen).
+  BNPL and payment processing under Swedish jurisdiction; no US corporate anchor.
+sources:
+  - https://www.klarna.com/privacy
+  - https://www.klarna.com/international/terms-and-conditions/
+  - https://www.klarna.com/
+last_reviewed: 2026-09-11
+notes: null

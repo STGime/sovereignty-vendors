@@ -1,0 +1,38 @@
+slug: algolia
+name: Algolia
+category: other
+contracting_entity: Algolia SAS
+ultimate_parent: Algolia SAS
+parent_jurisdiction: FR
+entity_jurisdiction: FR
+hosting_regions:
+  - eu
+  - us
+  - ap
+subprocessors:
+  - aws
+  - gcp
+eu_alternatives:
+  - meilisearch
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+  - US
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  French SAS (Paris HQ), search-as-a-service on AWS + GCP regions. EU option available;
+  hyperscaler subprocessor drags chain to amber.
+sources:
+  - https://www.algolia.com/security
+  - https://www.algolia.com/security
+  - https://www.algolia.com/policies/privacy/
+last_reviewed: 2026-09-11
+notes: >
+  Category rated as "other" pending a formal "search" category — sits alongside meilisearch and
+  typesense. Algolia has a US subsidiary; the SAS contracting entity is what this rates.

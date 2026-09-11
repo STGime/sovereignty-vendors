@@ -1,0 +1,33 @@
+slug: stytch
+name: Stytch
+category: auth
+contracting_entity: Stytch Inc.
+ultimate_parent: Stytch Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - aws
+eu_alternatives:
+  - ory
+  - eurobase
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation on AWS US regions. Passwordless auth API without an EU tenancy option;
+  every session token and user record transits US infrastructure.
+sources:
+  - https://stytch.com/
+  - https://stytch.com/
+  - https://stytch.com/
+last_reviewed: 2026-09-11
+notes: null

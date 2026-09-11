@@ -1,0 +1,44 @@
+slug: azure
+name: Microsoft Azure
+category: hosting
+contracting_entity: Microsoft Ireland Operations Limited
+ultimate_parent: Microsoft Corporation
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - westus
+  - eastus
+  - northeurope
+  - westeurope
+  - francecentral
+  - germanywestcentral
+  - swedencentral
+subprocessors: []
+eu_alternatives:
+  - scaleway
+  - hetzner
+  - ovhcloud
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Microsoft Ireland Operations Limited is the EU contracting entity, but ultimate parent
+  Microsoft Corporation is US-listed. Azure EU regions do not shield from the CLOUD Act — the
+  parent's jurisdiction reaches through the Irish sub.
+sources:
+  - https://www.microsoft.com/en-us/trust-center
+  - https://learn.microsoft.com/en-us/azure/compliance/
+  - https://www.microsoft.com/en-us/trust-center/privacy
+last_reviewed: 2026-09-11
+notes: >
+  The ICC-vs-Microsoft incident (Feb 2025 sanction of Karim Khan → mailbox went dark) is the
+  clearest recent demonstration of how a US parent's jurisdiction reaches through EU subs.

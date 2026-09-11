@@ -1,0 +1,40 @@
+slug: redis
+name: Redis Cloud
+category: db
+contracting_entity: Redis Ltd.
+ultimate_parent: Redis Ltd.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - ap
+subprocessors:
+  - aws
+  - gcp
+  - azure
+eu_alternatives:
+  - aiven
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+  - IL
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  US-incorporated (Delaware), operates via Redis Labs Ltd (US corp) with Israeli engineering
+  office. Cloud service runs on the three hyperscalers with EU regions available.
+sources:
+  - https://redis.com/privacy
+  - https://redis.com/legal/subprocessors/
+  - https://redis.com/legal/privacy-policy/
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted OSS Redis (or its Valve fork) on EU hardware is a green path; Redis Cloud is the
+  SaaS this rating covers. The 2024 licence change moving Redis Community from BSD to SSPL/RSAL
+  did not change the Cloud jurisdiction.

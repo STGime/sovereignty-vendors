@@ -1,0 +1,37 @@
+slug: couchbase
+name: Couchbase Capella
+category: db
+contracting_entity: Couchbase, Inc.
+ultimate_parent: Couchbase, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - ap
+subprocessors:
+  - aws
+  - gcp
+  - azure
+eu_alternatives:
+  - aiven
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NASDAQ-listed US corporation (BASE). Capella cloud runs on all three hyperscalers with EU
+  region options; the US corporate anchor remains.
+sources:
+  - https://www.couchbase.com/privacy-policy
+  - https://www.couchbase.com/privacy-policy
+  - https://www.couchbase.com/privacy-policy/
+last_reviewed: 2026-09-11
+notes: null

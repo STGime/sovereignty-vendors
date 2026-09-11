@@ -1,0 +1,34 @@
+slug: cloudfront
+name: Amazon CloudFront
+category: cdn
+contracting_entity: Amazon Web Services EMEA SARL
+ultimate_parent: Amazon.com, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - global-edge
+subprocessors: []
+eu_alternatives:
+  - bunny
+  - keycdn
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  CloudFront inherits AWS's exposure: EU-region pinning is possible for cached content, but
+  the corporate anchor is Amazon.com, Inc. (US).
+sources:
+  - https://aws.amazon.com/cloudfront/
+  - https://aws.amazon.com/service-terms/
+  - https://aws.amazon.com/compliance/gdpr-center/
+last_reviewed: 2026-09-11
+notes: >
+  Rated separately from `aws` because users search "CloudFront GDPR" as a distinct query.

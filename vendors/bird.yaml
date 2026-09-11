@@ -1,0 +1,37 @@
+slug: bird
+name: Bird (MessageBird)
+category: communication
+contracting_entity: Bird B.V.
+ultimate_parent: Bird B.V.
+parent_jurisdiction: NL
+entity_jurisdiction: NL
+hosting_regions:
+  - eu
+  - us
+  - ap
+subprocessors:
+  - aws
+eu_alternatives:
+  - gatewayapi
+  - infobip
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  Dutch B.V. (rebranded from MessageBird 2023). Amsterdam HQ, EU-only support ops. SMS,
+  voice, and CRM cloud runs on AWS regions; EU pinning brings data location to amber.
+sources:
+  - https://bird.com/privacy
+  - https://bird.com/security
+  - https://bird.com/
+last_reviewed: 2026-09-11
+notes: >
+  Bird's US subsidiaries (from acquisitions including Pusher and SparkPost) do inherit their
+  US corporate exposure — check the specific product's contracting entity.

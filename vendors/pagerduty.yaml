@@ -1,0 +1,34 @@
+slug: pagerduty
+name: PagerDuty
+category: monitoring
+contracting_entity: PagerDuty, Inc.
+ultimate_parent: PagerDuty, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - EU
+  - AU
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NYSE-listed US corporation (PD). Incident response platform on AWS with EU-region option;
+  the contracting entity's US anchor stands.
+sources:
+  - https://www.pagerduty.com/privacy
+  - https://www.pagerduty.com/privacy
+  - https://www.pagerduty.com/privacy
+last_reviewed: 2026-09-11
+notes: null

@@ -1,0 +1,38 @@
+slug: google-analytics
+name: Google Analytics
+category: analytics
+contracting_entity: Google Ireland Limited
+ultimate_parent: Alphabet Inc.
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - us
+  - eu
+subprocessors: []
+eu_alternatives:
+  - plausible
+  - simpleanalytics
+  - matomo
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Google Ireland Limited is the EU contracting entity for EU customers, but Alphabet's US
+  jurisdiction reaches through it. Multiple EU DPAs have ruled GA4 fails Schrems II under DPF.
+sources:
+  - https://policies.google.com/privacy
+  - https://business.safety.google/gdpr/
+  - https://analytics.google.com/
+last_reviewed: 2026-09-11
+notes: >
+  Austrian, French, Italian, and Danish DPAs have separately ruled GA use unlawful without
+  extensive TIA + configuration. Server-side + IP anonymization mitigates but does not remove
+  the parent-jurisdiction fact.

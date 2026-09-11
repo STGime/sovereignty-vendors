@@ -1,0 +1,32 @@
+slug: checkly
+name: Checkly
+category: monitoring
+contracting_entity: Checkly Groningen B.V.
+ultimate_parent: Checkly Groningen B.V.
+parent_jurisdiction: NL
+entity_jurisdiction: NL
+hosting_regions:
+  - eu
+  - us
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  Dutch B.V. (Berlin engineering office), EU-only support ops. Synthetic + API monitoring
+  runs from AWS regions worldwide; pinning EU makes location amber.
+sources:
+  - https://www.checklyhq.com/privacy
+  - https://www.checklyhq.com/docs/
+  - https://www.checklyhq.com/
+last_reviewed: 2026-09-11
+notes: null

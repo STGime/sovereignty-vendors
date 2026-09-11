@@ -1,0 +1,36 @@
+slug: exoscale
+name: Exoscale
+category: hosting
+contracting_entity: Akenes SA (Exoscale)
+ultimate_parent: A1 Digital International GmbH
+parent_jurisdiction: AT
+entity_jurisdiction: CH
+hosting_regions:
+  - ch-gva
+  - ch-dk
+  - at-vie
+  - de-fra
+  - bg-sof
+subprocessors: []
+eu_alternatives: []
+transfer_mechanism: adequacy
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: green
+  operational_access: green
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: green
+one_line_reason: >
+  Swiss SA (Akenes / Exoscale), ultimate parent A1 Digital is Austrian (part of the Austrian
+  Telekom Group). Datacentres in Geneva, Zurich, Vienna, Frankfurt, Sofia.
+sources:
+  - https://www.exoscale.com/privacy
+  - https://www.exoscale.com/compliance/
+  - https://www.exoscale.com/
+last_reviewed: 2026-09-11
+notes: >
+  Switzerland holds an EU adequacy decision; the Austrian parent + Swiss operational entity
+  puts Exoscale entirely inside the EEA-adequate perimeter.

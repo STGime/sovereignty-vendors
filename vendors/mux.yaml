@@ -1,0 +1,32 @@
+slug: mux
+name: Mux
+category: communication
+contracting_entity: Mux, Inc.
+ultimate_parent: Mux, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - global-edge
+subprocessors:
+  - aws
+  - gcp
+eu_alternatives: []
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation, video streaming API on AWS + GCP. Global CDN delivery but the origin
+  encoding + control plane are US-jurisdictional.
+sources:
+  - https://www.mux.com/privacy
+  - https://www.mux.com/privacy
+  - https://www.mux.com/privacy
+last_reviewed: 2026-09-11
+notes: null

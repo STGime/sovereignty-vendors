@@ -1,0 +1,31 @@
+slug: discord
+name: Discord
+category: communication
+contracting_entity: Discord Inc.
+ultimate_parent: Discord Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - gcp
+eu_alternatives: []
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation running on Google Cloud US regions. No EU tenancy option; every message
+  and voice payload transits US infrastructure by design.
+sources:
+  - https://discord.com/privacy
+  - https://discord.com/terms
+  - https://discord.com/
+last_reviewed: 2026-09-11
+notes: null

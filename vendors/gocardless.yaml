@@ -1,0 +1,35 @@
+slug: gocardless
+name: GoCardless
+category: payments
+contracting_entity: GoCardless Ltd
+ultimate_parent: GoCardless Ltd
+parent_jurisdiction: GB
+entity_jurisdiction: GB
+hosting_regions:
+  - eu-west
+subprocessors:
+  - aws
+eu_alternatives:
+  - mollie
+transfer_mechanism: adequacy
+operational_access_regions:
+  - GB
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  UK limited company, EU-Ireland AWS hosting. UK adequacy decision covers transfers so no
+  SCCs needed. AWS EMEA dependency drags subprocessor chain to amber.
+sources:
+  - https://gocardless.com/privacy
+  - https://gocardless.com/privacy
+  - https://gocardless.com/legal/privacy/
+last_reviewed: 2026-09-11
+notes: >
+  UK adequacy is under Commission review (expires 2026). If not renewed, this entry moves to
+  amber on transfer_mechanism.
