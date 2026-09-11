@@ -1,0 +1,34 @@
+slug: lemonsqueezy
+name: Lemon Squeezy
+category: payments
+contracting_entity: LemonSqueezy, LLC
+ultimate_parent: Stripe, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - aws
+eu_alternatives:
+  - mollie
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Acquired by Stripe in July 2024; ultimate parent is now Stripe, Inc. (Delaware). US LLC on
+  AWS US regions. Same CLOUD Act exposure as Stripe itself.
+sources:
+  - https://www.lemonsqueezy.com/legal/dpa
+  - https://www.lemonsqueezy.com/legal/subprocessors
+  - https://www.lemonsqueezy.com/legal/privacy
+last_reviewed: 2026-09-11
+notes: >
+  Pre-2024 Lemon Squeezy operated as an independent US company; the acquisition consolidated
+  jurisdictional risk with Stripe.

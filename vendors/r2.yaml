@@ -1,0 +1,31 @@
+slug: r2
+name: Cloudflare R2
+category: storage
+contracting_entity: Cloudflare, Inc.
+ultimate_parent: Cloudflare, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - global-distributed
+subprocessors: []
+eu_alternatives:
+  - scaleway
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: red
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  R2 is a Cloudflare-operated object store. Location hints can pin data to EU jurisdictions,
+  but Cloudflare, Inc. is Delaware-incorporated and subject to the CLOUD Act.
+sources:
+  - https://www.cloudflare.com/cloudflare-customer-dpa/
+  - https://www.cloudflare.com/en-gb/gdpr/introduction/
+  - https://developers.cloudflare.com/r2/reference/data-location/
+last_reviewed: 2026-09-11
+notes: null

@@ -1,0 +1,33 @@
+slug: honeycomb
+name: Honeycomb
+category: monitoring
+contracting_entity: Hound Technology, Inc.
+ultimate_parent: Hound Technology, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - aws
+eu_alternatives:
+  - grafana-cloud
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation (dba Honeycomb.io). EU region on AWS Ireland is available; the US entity
+  and the AWS EMEA hyperscaler dependency both apply.
+sources:
+  - https://www.honeycomb.io/legal/dpa
+  - https://www.honeycomb.io/legal/subprocessors
+  - https://www.honeycomb.io/privacy
+last_reviewed: 2026-09-11
+notes: null

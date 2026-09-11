@@ -1,0 +1,34 @@
+slug: openai
+name: OpenAI
+category: ai
+contracting_entity: OpenAI, LLC
+ultimate_parent: OpenAI, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - azure
+eu_alternatives:
+  - mistral
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  US LLC running on Microsoft Azure US regions. Zero-data-retention API mode reduces retention
+  risk but does not change jurisdiction — inference still runs on US-controlled infrastructure.
+sources:
+  - https://openai.com/policies/data-processing-addendum/
+  - https://openai.com/policies/subprocessor-list/
+  - https://openai.com/enterprise-privacy/
+last_reviewed: 2026-09-11
+notes: >
+  OpenAI announced EU data residency for some ChatGPT Enterprise / API customers in 2024; enable
+  it explicitly per account. Even with EU residency, the corporate anchor stays US.

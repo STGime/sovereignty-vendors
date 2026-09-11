@@ -1,0 +1,38 @@
+slug: datadog
+name: Datadog
+category: monitoring
+contracting_entity: Datadog, Inc.
+ultimate_parent: Datadog, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us1
+  - us3
+  - us5
+  - eu1
+  - ap1
+subprocessors:
+  - aws
+  - gcp
+  - azure
+eu_alternatives:
+  - grafana-cloud
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NASDAQ-listed US corporation. EU1 site is on AWS Frankfurt but ingest, alerting, and support
+  operations are US-anchored. Logs, traces, metrics all subject to CLOUD Act at the entity.
+sources:
+  - https://www.datadoghq.com/legal/data-processing-addendum/
+  - https://www.datadoghq.com/legal/sub-processors/
+  - https://www.datadoghq.com/legal/privacy/
+last_reviewed: 2026-09-11
+notes: null

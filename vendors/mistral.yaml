@@ -1,0 +1,33 @@
+slug: mistral
+name: Mistral AI
+category: ai
+contracting_entity: Mistral AI SAS
+ultimate_parent: Mistral AI SAS
+parent_jurisdiction: FR
+entity_jurisdiction: FR
+hosting_regions:
+  - fr
+  - eu
+subprocessors: []
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: green
+  operational_access: green
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: green
+one_line_reason: >
+  French SAS; La Plateforme (Mistral's own inference platform) runs in EU regions. No US
+  corporate control over the contracting entity.
+sources:
+  - https://mistral.ai/terms/
+  - https://mistral.ai/privacy-policy/
+  - https://help.mistral.ai/
+last_reviewed: 2026-09-11
+notes: >
+  When consumed via Azure, AWS Bedrock, or GCP Vertex the rating flips to that hyperscaler's —
+  those aren't Mistral's contracting entity, they're Microsoft / Amazon / Google.

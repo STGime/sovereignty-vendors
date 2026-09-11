@@ -1,0 +1,36 @@
+slug: buildkite
+name: Buildkite
+category: ci
+contracting_entity: Buildkite Pty Ltd
+ultimate_parent: Buildkite Pty Ltd
+parent_jurisdiction: AU
+entity_jurisdiction: AU
+hosting_regions:
+  - au
+  - us
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - AU
+  - US
+ratings:
+  entity_control: amber
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: amber
+one_line_reason: >
+  Australian Pty Ltd; control plane on AWS. Because Buildkite's model runs agents on your own
+  infrastructure, build artifacts and code can stay in your EU environment even though the
+  control plane does not.
+sources:
+  - https://buildkite.com/legal/data-protection-agreement
+  - https://buildkite.com/legal/subprocessors
+  - https://buildkite.com/legal/privacy-policy
+last_reviewed: 2026-09-11
+notes: >
+  Hybrid architecture: source code, secrets, and build outputs live on customer-managed agents;
+  the control plane sees only metadata + job orchestration. Materially reduces data exposure.

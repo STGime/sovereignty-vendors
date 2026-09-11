@@ -1,0 +1,35 @@
+slug: fathom
+name: Fathom Analytics
+category: analytics
+contracting_entity: Conva Ventures Inc.
+ultimate_parent: Conva Ventures Inc.
+parent_jurisdiction: CA
+entity_jurisdiction: CA
+hosting_regions:
+  - eu
+  - us
+  - ca
+subprocessors: []
+eu_alternatives:
+  - plausible
+transfer_mechanism: adequacy
+operational_access_regions:
+  - CA
+ratings:
+  entity_control: amber
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  Canadian entity (BC), covered by the EU-Canada adequacy decision. Not subject to the CLOUD Act,
+  but Canadian production access still counts as a cross-border transfer.
+sources:
+  - https://usefathom.com/data-processing-agreement
+  - https://usefathom.com/privacy
+  - https://usefathom.com/about
+last_reviewed: 2026-09-11
+notes: >
+  Canada has an EU adequacy decision (PIPEDA-covered orgs). Rated amber not green because the
+  ultimate parent isn't EU — a change to Canada's status by the Commission would flip this.

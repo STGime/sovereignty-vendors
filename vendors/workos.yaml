@@ -1,0 +1,32 @@
+slug: workos
+name: WorkOS
+category: auth
+contracting_entity: WorkOS, Inc.
+ultimate_parent: WorkOS, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - aws
+eu_alternatives:
+  - eurobase
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation running on AWS US regions. No EU tenancy option today; SSO / SCIM traffic
+  transits US infrastructure.
+sources:
+  - https://workos.com/legal/dpa
+  - https://workos.com/legal/subprocessors
+  - https://workos.com/legal/privacy
+last_reviewed: 2026-09-11
+notes: null

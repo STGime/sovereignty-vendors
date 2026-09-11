@@ -1,0 +1,33 @@
+slug: postmark
+name: Postmark
+category: email
+contracting_entity: ActiveCampaign, LLC
+ultimate_parent: ActiveCampaign, LLC
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us-east
+subprocessors:
+  - aws
+eu_alternatives:
+  - mailjet
+  - scaleway
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Postmark (Wildbit) was acquired by ActiveCampaign in 2022. Contracting entity and infrastructure
+  are US-only; no EU region option. Every message body transits US datacenters.
+sources:
+  - https://postmarkapp.com/dpa
+  - https://postmarkapp.com/privacy-policy
+  - https://www.activecampaign.com/legal/subprocessor-list
+last_reviewed: 2026-09-11
+notes: null

@@ -1,0 +1,34 @@
+slug: auth0
+name: Auth0 (Okta)
+category: auth
+contracting_entity: Auth0, Inc.
+ultimate_parent: Okta, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - au
+subprocessors:
+  - aws
+eu_alternatives:
+  - eurobase
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Auth0 is an Okta subsidiary; both entities are US-incorporated. EU tenant region on AWS
+  Frankfurt is available but does not remove Okta's US jurisdiction over the contract.
+sources:
+  - https://www.okta.com/agreements/master-subscription-agreement-online/
+  - https://www.okta.com/agreements/subprocessors/
+  - https://www.okta.com/privacy-policy/
+last_reviewed: 2026-09-11
+notes: null

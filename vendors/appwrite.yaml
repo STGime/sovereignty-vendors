@@ -1,0 +1,38 @@
+slug: appwrite
+name: Appwrite
+category: baas
+contracting_entity: Appwrite, Inc.
+ultimate_parent: Appwrite, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - fra
+  - nyc
+  - sfo
+  - blr
+subprocessors:
+  - gcp
+eu_alternatives:
+  - eurobase
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - IL
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Appwrite Cloud is a Delaware corporation with headquarters in Tel Aviv, running on Google
+  Cloud. Frankfurt region available; the US contracting entity and GCP dependency both apply.
+sources:
+  - https://appwrite.io/dpa
+  - https://appwrite.io/subprocessors
+  - https://appwrite.io/privacy
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted Appwrite (OSS) on your own EU infrastructure is a green path. This rating covers
+  Appwrite Cloud only.

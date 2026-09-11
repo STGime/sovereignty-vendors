@@ -1,0 +1,33 @@
+slug: sentry
+name: Sentry
+category: error
+contracting_entity: Functional Software, Inc.
+ultimate_parent: Functional Software, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - gcp
+eu_alternatives: []
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corp; EU region on Google Cloud Frankfurt is available on Business plans. Contracting
+  entity remains US-based and stack traces / event payloads reach it.
+sources:
+  - https://sentry.io/legal/dpa/
+  - https://sentry.io/legal/subprocessors/
+  - https://sentry.io/privacy/
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted Sentry (OSS) is a green path; the SaaS is what the rating applies to.

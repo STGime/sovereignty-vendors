@@ -1,0 +1,36 @@
+slug: grafana-cloud
+name: Grafana Cloud
+category: monitoring
+contracting_entity: Grafana Labs, Inc.
+ultimate_parent: Grafana Labs, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - au
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - SE
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Grafana Labs is Delaware-incorporated even though a large share of engineering is in Sweden.
+  EU region on AWS Frankfurt available; the contracting entity anchors CLOUD Act exposure.
+sources:
+  - https://grafana.com/legal/dpa/
+  - https://grafana.com/legal/subprocessors/
+  - https://grafana.com/legal/privacy-policy/
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted Grafana + Loki + Mimir + Tempo is a fully sovereign path; only the SaaS is rated
+  here.
