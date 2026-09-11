@@ -1,0 +1,39 @@
+slug: s3
+name: Amazon S3
+category: storage
+contracting_entity: Amazon Web Services EMEA SARL
+ultimate_parent: Amazon.com, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - us-east-1
+  - eu-west-1
+  - eu-central-1
+  - eu-west-3
+  - ap-southeast-1
+subprocessors: []
+eu_alternatives:
+  - scaleway
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Amazon S3 inherits AWS's exposure: the Luxembourg contracting entity's ultimate parent
+  (Amazon.com, Inc.) is US-incorporated, so an S3 EU-region bucket is still reachable under the
+  CLOUD Act.
+sources:
+  - https://aws.amazon.com/service-terms/
+  - https://aws.amazon.com/compliance/gdpr-center/
+  - https://aws.amazon.com/compliance/sub-processors/
+last_reviewed: 2026-09-11
+notes: >
+  Rated separately from `aws` because users search "is S3 GDPR-compliant" as a distinct query.
+  The rating mirrors AWS's per the corporate anchor.

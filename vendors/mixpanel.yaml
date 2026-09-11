@@ -1,0 +1,35 @@
+slug: mixpanel
+name: Mixpanel
+category: analytics
+contracting_entity: Mixpanel, Inc.
+ultimate_parent: Mixpanel, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - gcp
+eu_alternatives:
+  - plausible
+  - posthog
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation on Google Cloud, EU residency available on higher plans. US and Indian
+  operational access is standard for the Cloud tier.
+sources:
+  - https://mixpanel.com/legal/dpa/
+  - https://mixpanel.com/legal/subprocessors/
+  - https://mixpanel.com/legal/privacy-policy/
+last_reviewed: 2026-09-11
+notes: null

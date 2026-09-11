@@ -1,0 +1,32 @@
+slug: fastly
+name: Fastly
+category: cdn
+contracting_entity: Fastly, Inc.
+ultimate_parent: Fastly, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - global-edge
+subprocessors: []
+eu_alternatives:
+  - bunny
+  - keycdn
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NYSE-listed US corporation (FSLY). Global edge network but the corporate entity and control
+  plane are US-based, so CLOUD Act applies to logs and any origin-shielding.
+sources:
+  - https://www.fastly.com/documents/data-processing-addendum
+  - https://www.fastly.com/trust/privacy
+  - https://www.fastly.com/subprocessors
+last_reviewed: 2026-09-11
+notes: null

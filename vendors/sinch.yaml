@@ -1,0 +1,37 @@
+slug: sinch
+name: Sinch
+category: communication
+contracting_entity: Sinch AB
+ultimate_parent: Sinch AB
+parent_jurisdiction: SE
+entity_jurisdiction: SE
+hosting_regions:
+  - eu
+  - us
+  - ap
+subprocessors:
+  - aws
+eu_alternatives:
+  - gatewayapi
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+  - US
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: green
+  overall: amber
+one_line_reason: >
+  Swedish AB publicly listed on Nasdaq Stockholm. Ultimate parent is EU; some infrastructure
+  rides on AWS, some on Sinch's own network. Route-dependent — check per product line.
+sources:
+  - https://www.sinch.com/legal/data-processing-addendum/
+  - https://www.sinch.com/legal/subprocessors/
+  - https://www.sinch.com/legal/privacy-policy/
+last_reviewed: 2026-09-11
+notes: >
+  Sinch's US subsidiaries (Mailgun, Mailjet-US) are US corporations subject to CLOUD Act despite
+  the Swedish parent. This entry rates the Sinch AB contracting relationship itself.

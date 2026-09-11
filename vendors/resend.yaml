@@ -1,0 +1,34 @@
+slug: resend
+name: Resend
+category: email
+contracting_entity: Resend, Inc.
+ultimate_parent: Resend, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us-east-1
+  - eu-west-1
+subprocessors:
+  - aws
+eu_alternatives:
+  - mailjet
+  - scaleway
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Resend, Inc. is Delaware-incorporated and subject to the CLOUD Act. EU region is available
+  on paid plans but runs on AWS, and support staff are US-based.
+sources:
+  - https://resend.com/legal/dpa
+  - https://resend.com/legal/subprocessors
+  - https://resend.com/legal/privacy-policy
+last_reviewed: 2026-09-11
+notes: null

@@ -1,0 +1,40 @@
+slug: digitalocean
+name: DigitalOcean
+category: hosting
+contracting_entity: DigitalOcean, LLC
+ultimate_parent: DigitalOcean Holdings, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - nyc
+  - sfo
+  - ams
+  - fra
+  - lon
+  - sgp
+subprocessors: []
+eu_alternatives:
+  - scaleway
+  - hetzner
+  - ovhcloud
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - CA
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NYSE-listed US corporation (DOCN). Amsterdam, Frankfurt, and London regions available; the
+  Delaware entity anchors CLOUD Act exposure regardless of droplet location.
+sources:
+  - https://www.digitalocean.com/legal/data-processing-agreement
+  - https://www.digitalocean.com/legal/data-subprocessors
+  - https://www.digitalocean.com/legal/privacy-policy
+last_reviewed: 2026-09-11
+notes: null

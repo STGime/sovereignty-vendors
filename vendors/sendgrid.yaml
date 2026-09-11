@@ -1,0 +1,35 @@
+slug: sendgrid
+name: SendGrid (Twilio)
+category: email
+contracting_entity: Twilio Inc.
+ultimate_parent: Twilio Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - aws
+eu_alternatives:
+  - mailjet
+  - scaleway
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  SendGrid is a Twilio product; contracting entity is Twilio Inc. (Delaware) and subject to the
+  CLOUD Act. An EU regional address is available but does not shield the parent's jurisdiction.
+sources:
+  - https://www.twilio.com/en-us/legal/data-protection-addendum
+  - https://www.twilio.com/en-us/legal/sub-processors
+  - https://sendgrid.com/en-us/legal/privacy-policy
+last_reviewed: 2026-09-11
+notes: null

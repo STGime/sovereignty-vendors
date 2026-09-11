@@ -1,0 +1,36 @@
+slug: twilio
+name: Twilio
+category: communication
+contracting_entity: Twilio Inc.
+ultimate_parent: Twilio Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+  - au
+subprocessors:
+  - aws
+eu_alternatives:
+  - sinch
+  - gatewayapi
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NYSE-listed US corporation (TWLO). EU regional endpoint on AWS Ireland exists; message
+  bodies and CDRs still transit a US-controlled contracting entity.
+sources:
+  - https://www.twilio.com/en-us/legal/data-protection-addendum
+  - https://www.twilio.com/en-us/legal/sub-processors
+  - https://www.twilio.com/en-us/legal/privacy
+last_reviewed: 2026-09-11
+notes: null

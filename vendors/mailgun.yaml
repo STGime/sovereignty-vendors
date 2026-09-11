@@ -1,0 +1,38 @@
+slug: mailgun
+name: Mailgun
+category: email
+contracting_entity: Mailgun Technologies, Inc.
+ultimate_parent: Sinch AB
+parent_jurisdiction: SE
+entity_jurisdiction: US
+hosting_regions:
+  - us-east-1
+  - eu-west-1
+subprocessors:
+  - aws
+eu_alternatives:
+  - mailjet
+  - scaleway
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+  - EU
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Ultimate parent Sinch AB is Swedish, but Mailgun's contracting entity remains a Delaware
+  corporation that must comply with the CLOUD Act regardless. EU region available but shared
+  US infrastructure remains.
+sources:
+  - https://www.mailgun.com/legal/dpa/
+  - https://www.mailgun.com/legal/subprocessors/
+  - https://www.mailgun.com/legal/privacy-policy/
+last_reviewed: 2026-09-11
+notes: >
+  Interesting case for the "parent shields subsidiary" myth — Sinch's Swedish ownership does not
+  remove Mailgun's US corporate exposure. The contracting entity is the anchor.

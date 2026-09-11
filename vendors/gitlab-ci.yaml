@@ -1,0 +1,33 @@
+slug: gitlab-ci
+name: GitLab CI (SaaS)
+category: ci
+contracting_entity: GitLab Inc.
+ultimate_parent: GitLab Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - gcp
+eu_alternatives: []
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  GitLab.com is a Delaware corporation on GCP US regions. Self-managed GitLab on EU-hosted
+  infrastructure avoids all of this exposure entirely — many teams pick that path for sovereignty.
+sources:
+  - https://about.gitlab.com/handbook/legal/data-processing-agreement/
+  - https://about.gitlab.com/handbook/legal/subprocessors/
+  - https://about.gitlab.com/handbook/legal/privacy/
+last_reviewed: 2026-09-11
+notes: >
+  This entry rates the SaaS (GitLab.com), not the self-managed product. Self-managed on Hetzner
+  or Scaleway is a fully green sovereignty path.

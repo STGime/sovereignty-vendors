@@ -1,0 +1,35 @@
+slug: anthropic
+name: Anthropic (Claude)
+category: ai
+contracting_entity: Anthropic, PBC
+ultimate_parent: Anthropic, PBC
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - aws
+  - gcp
+eu_alternatives:
+  - mistral
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware public benefit corporation; inference runs on AWS Trainium and GCP TPUs, primarily
+  in US regions. No EU region for the direct API today.
+sources:
+  - https://www.anthropic.com/legal/dpa
+  - https://www.anthropic.com/legal/subprocessors
+  - https://www.anthropic.com/legal/privacy
+last_reviewed: 2026-09-11
+notes: >
+  Bedrock and Vertex re-sales of Claude in EU regions ride on the respective hyperscaler's own
+  entity — those inherit AWS / GCP's rating, not Anthropic's.

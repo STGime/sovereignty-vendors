@@ -1,0 +1,36 @@
+slug: planetscale
+name: PlanetScale
+category: db
+contracting_entity: PlanetScale, Inc.
+ultimate_parent: PlanetScale, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us-east
+  - us-west
+  - eu-west
+  - ap-south
+subprocessors:
+  - aws
+eu_alternatives:
+  - eurobase
+  - aiven
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation on AWS, EU-West-1 region available. Contracting entity's US anchor keeps
+  CLOUD Act exposure regardless of chosen region.
+sources:
+  - https://planetscale.com/legal/data-processing-addendum
+  - https://planetscale.com/legal/subprocessors
+  - https://planetscale.com/legal/privacy
+last_reviewed: 2026-09-11
+notes: null

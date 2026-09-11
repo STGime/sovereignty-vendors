@@ -1,0 +1,33 @@
+slug: clerk
+name: Clerk
+category: auth
+contracting_entity: Clerk Inc.
+ultimate_parent: Clerk Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - aws
+eu_alternatives:
+  - eurobase
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation on AWS. EU region added in 2024 for Business+ plans; the entity is US
+  and support staff sit in the US.
+sources:
+  - https://clerk.com/legal/dpa
+  - https://clerk.com/legal/subprocessors
+  - https://clerk.com/privacy
+last_reviewed: 2026-09-11
+notes: null

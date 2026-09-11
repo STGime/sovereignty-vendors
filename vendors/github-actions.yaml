@@ -1,0 +1,35 @@
+slug: github-actions
+name: GitHub Actions
+category: ci
+contracting_entity: GitHub, Inc.
+ultimate_parent: Microsoft Corporation
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+  - eu
+subprocessors:
+  - azure
+eu_alternatives:
+  - gitlab-ci
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  GitHub, Inc. is a Microsoft subsidiary; both are US corporations. Actions runners live on
+  Azure — jurisdiction, control plane, and secrets storage all sit under US law.
+sources:
+  - https://docs.github.com/en/site-policy/privacy-policies/github-data-protection-agreement
+  - https://docs.github.com/en/site-policy/privacy-policies/github-subprocessors
+  - https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+last_reviewed: 2026-09-11
+notes: >
+  Self-hosted runners on your own EU infrastructure remove data-location and subprocessor risk
+  but the control plane (workflow orchestration, secrets storage) remains with GitHub.

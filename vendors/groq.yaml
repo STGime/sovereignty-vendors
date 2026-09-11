@@ -1,0 +1,31 @@
+slug: groq
+name: Groq
+category: ai
+contracting_entity: Groq, Inc.
+ultimate_parent: Groq, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors: []
+eu_alternatives:
+  - mistral
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Delaware corporation running its own LPU hardware in US datacenters. Fast inference, but the
+  jurisdiction is unchanged from any US LLM provider.
+sources:
+  - https://groq.com/terms-of-use/
+  - https://groq.com/privacy-policy/
+  - https://console.groq.com/docs/legal
+last_reviewed: 2026-09-11
+notes: null

@@ -1,0 +1,32 @@
+slug: backblaze
+name: Backblaze B2
+category: storage
+contracting_entity: Backblaze, Inc.
+ultimate_parent: Backblaze, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us-west
+  - eu-central
+subprocessors: []
+eu_alternatives:
+  - scaleway
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  NASDAQ-listed US corporation (BLZE). EU-Central region on their own hardware in Amsterdam,
+  but the corporate entity's US anchor puts contracts under the CLOUD Act.
+sources:
+  - https://www.backblaze.com/company/dpa.html
+  - https://www.backblaze.com/company/subprocessors.html
+  - https://www.backblaze.com/company/privacy.html
+last_reviewed: 2026-09-11
+notes: null

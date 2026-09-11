@@ -1,0 +1,35 @@
+slug: aiven
+name: Aiven
+category: db
+contracting_entity: Aiven Oy
+ultimate_parent: Aiven Oy
+parent_jurisdiction: FI
+entity_jurisdiction: FI
+hosting_regions:
+  - global-multi-cloud
+subprocessors:
+  - aws
+  - gcp
+  - azure
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: amber
+  operational_access: green
+  subprocessor_chain: red
+  transfer_mechanism: green
+  overall: red
+one_line_reason: >
+  Finnish OY, EU-hosted contracting entity and EU-only support ops. But the platform runs on
+  AWS / GCP / Azure — so any exposure of the underlying hyperscaler cascades through.
+sources:
+  - https://aiven.io/legal/dpa
+  - https://aiven.io/legal/subprocessors
+  - https://aiven.io/privacy
+last_reviewed: 2026-09-11
+notes: >
+  Choose an EU region on a green subprocessor (Aiven does offer Scaleway-adjacent options) and
+  the effective exposure drops sharply — this rating captures the default AWS-backed path.

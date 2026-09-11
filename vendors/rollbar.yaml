@@ -1,0 +1,31 @@
+slug: rollbar
+name: Rollbar
+category: error
+contracting_entity: Rollbar, Inc.
+ultimate_parent: Rollbar, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us
+subprocessors:
+  - aws
+eu_alternatives: []
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: red
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  US corporation running on AWS US-East. No EU regional option — every event payload transits
+  the US, which the CLOUD Act reaches directly.
+sources:
+  - https://rollbar.com/legal/dpa/
+  - https://rollbar.com/legal/subprocessors/
+  - https://rollbar.com/privacy/
+last_reviewed: 2026-09-11
+notes: null
