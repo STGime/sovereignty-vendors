@@ -15,7 +15,7 @@ subprocessors:
   - aws
 eu_alternatives:
   - scaleway
-  - netlify-eu
+  - ovhcloud
 transfer_mechanism: SCCs
 operational_access_regions:
   - US
@@ -23,7 +23,7 @@ ratings:
   entity_control: red
   data_location: amber
   operational_access: red
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: amber
   overall: red
 one_line_reason: >
@@ -31,7 +31,7 @@ one_line_reason: >
   EU region is available for edge caching but the platform's control plane is US-jurisdictional.
 sources:
   - https://vercel.com/legal/dpa
-  - https://vercel.com/legal/subprocessors
+  - https://vercel.com/legal
   - https://vercel.com/docs/edge-network/regions
 last_reviewed: 2026-09-11
 notes: null

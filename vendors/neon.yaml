@@ -29,9 +29,9 @@ one_line_reason: >
   Acquired by Databricks in May 2025; ultimate parent is now a Delaware corporation. EU-Central
   region on AWS Frankfurt available; the US entity anchor stands.
 sources:
-  - https://neon.tech/legal/dpa
-  - https://neon.tech/legal/subprocessors
-  - https://neon.tech/legal/privacy
+  - https://neon.tech/dpa
+  - https://neon.tech/subprocessors
+  - https://neon.tech/privacy-policy
 last_reviewed: 2026-09-11
 notes: >
   Pre-Databricks Neon operated under its own Delaware entity — the acquisition consolidated but

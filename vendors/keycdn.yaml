@@ -25,7 +25,7 @@ one_line_reason: >
   Swiss LLC (proinity), no US corporate ownership. Switzerland holds an EU adequacy decision so
   transfers are lawful without SCCs; edge PoPs are worldwide but the anchor is Zurich.
 sources:
-  - https://www.keycdn.com/legal/data-processing-agreement
+  - https://www.keycdn.com/legal
   - https://www.keycdn.com/privacy
   - https://www.keycdn.com/about
 last_reviewed: 2026-09-11

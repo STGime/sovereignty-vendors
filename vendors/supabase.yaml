@@ -31,8 +31,8 @@ one_line_reason: >
   Contracting entity Supabase, Inc. is US-incorporated and subject to the CLOUD Act
   regardless of the EU region configured; runs on AWS as sole hyperscaler subprocessor.
 sources:
-  - https://supabase.com/docs/guides/platform/data-storage
+  - https://supabase.com/legal
   - https://supabase.com/legal/dpa
-  - https://supabase.com/dashboard/org/[org_id]/subprocessors
+  - https://supabase.com/privacy
 last_reviewed: 2026-09-11
 notes: null

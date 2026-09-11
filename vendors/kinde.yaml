@@ -27,9 +27,9 @@ one_line_reason: >
   Australian Pty Ltd — not subject to the CLOUD Act, but Australia has no EU adequacy decision.
   EU region on AWS reduces data-location risk; entity risk sits with Australian law.
 sources:
-  - https://kinde.com/legal/dpa/
-  - https://kinde.com/legal/sub-processors/
-  - https://kinde.com/legal/privacy/
+  - https://kinde.com/security/
+  - https://kinde.com/privacy-policy/
+  - https://kinde.com/
 last_reviewed: 2026-09-11
 notes: >
   Rated amber not red because CLOUD Act does not reach Australian corporates. Rated amber not

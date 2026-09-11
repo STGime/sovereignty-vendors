@@ -24,7 +24,7 @@ one_line_reason: >
   Slovenian d.o.o., no US parent or subsidiary in the chain. Edge network is global but the
   contracting entity and control plane sit inside the EU.
 sources:
-  - https://bunny.net/dpa/
+  - https://bunny.net/gdpr/
   - https://bunny.net/privacy/
   - https://bunny.net/about/
 last_reviewed: 2026-09-11

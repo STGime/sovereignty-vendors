@@ -18,7 +18,7 @@ ratings:
   entity_control: red
   data_location: red
   operational_access: red
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: amber
   overall: red
 one_line_reason: >
@@ -26,8 +26,8 @@ one_line_reason: >
   risk but does not change jurisdiction — inference still runs on US-controlled infrastructure.
 sources:
   - https://openai.com/policies/data-processing-addendum/
-  - https://openai.com/policies/subprocessor-list/
-  - https://openai.com/enterprise-privacy/
+  - https://trust.openai.com/
+  - https://openai.com/policies/privacy-policy/
 last_reviewed: 2026-09-11
 notes: >
   OpenAI announced EU data residency for some ChatGPT Enterprise / API customers in 2024; enable

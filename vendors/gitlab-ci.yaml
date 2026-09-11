@@ -17,7 +17,7 @@ ratings:
   entity_control: red
   data_location: red
   operational_access: red
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: amber
   overall: red
 one_line_reason: >
@@ -25,8 +25,8 @@ one_line_reason: >
   infrastructure avoids all of this exposure entirely — many teams pick that path for sovereignty.
 sources:
   - https://about.gitlab.com/handbook/legal/data-processing-agreement/
-  - https://about.gitlab.com/handbook/legal/subprocessors/
-  - https://about.gitlab.com/handbook/legal/privacy/
+  - https://about.gitlab.com/handbook/legal/
+  - https://about.gitlab.com/privacy/
 last_reviewed: 2026-09-11
 notes: >
   This entry rates the SaaS (GitLab.com), not the self-managed product. Self-managed on Hetzner

@@ -24,8 +24,8 @@ one_line_reason: >
   French SAS with a Swedish parent (Sinch AB); infrastructure in France and Belgium, operations
   EU-only. No US corporate entity in the chain.
 sources:
-  - https://www.mailjet.com/legal/gdpr-dpa/
+  - https://www.mailjet.com/gdpr/
   - https://www.mailjet.com/security-privacy/
-  - https://www.mailjet.com/legal/privacy-policy/
+  - https://www.mailjet.com/privacy-policy/
 last_reviewed: 2026-09-11
 notes: null

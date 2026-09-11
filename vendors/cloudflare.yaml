@@ -10,7 +10,7 @@ hosting_regions:
 subprocessors: []
 eu_alternatives:
   - bunny
-  - fastly-eu
+  - keycdn
 transfer_mechanism: SCCs+TIA
 operational_access_regions:
   - US
@@ -29,7 +29,7 @@ one_line_reason: >
   and the CLOUD Act still reaches the entity. Overall red by the "worst dimension wins" rule.
 sources:
   - https://www.cloudflare.com/trust-hub/gdpr/
-  - https://blog.cloudflare.com/data-localization-suite/
+  - https://www.cloudflare.com/en-gb/data-localization/
   - https://www.cloudflare.com/cloudflare-customer-dpa/
 last_reviewed: 2026-09-11
 notes: >

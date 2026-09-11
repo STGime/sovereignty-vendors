@@ -25,9 +25,9 @@ one_line_reason: >
   Acquired by Stripe in July 2024; ultimate parent is now Stripe, Inc. (Delaware). US LLC on
   AWS US regions. Same CLOUD Act exposure as Stripe itself.
 sources:
-  - https://www.lemonsqueezy.com/legal/dpa
-  - https://www.lemonsqueezy.com/legal/subprocessors
-  - https://www.lemonsqueezy.com/legal/privacy
+  - https://www.lemonsqueezy.com/dpa
+  - https://www.lemonsqueezy.com/terms
+  - https://www.lemonsqueezy.com/privacy
 last_reviewed: 2026-09-11
 notes: >
   Pre-2024 Lemon Squeezy operated as an independent US company; the acquisition consolidated

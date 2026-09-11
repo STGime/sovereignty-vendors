@@ -23,8 +23,8 @@ one_line_reason: >
   Danish ApS, servers and operations in Denmark. SMS and voice with Danish contracting entity —
   no US corporate control anywhere in the chain.
 sources:
-  - https://gatewayapi.com/legal/dpa/
-  - https://gatewayapi.com/legal/privacy/
-  - https://gatewayapi.com/about/
+  - https://gatewayapi.com/
+  - https://gatewayapi.com/blog/
+  - https://gatewayapi.com/pricing/
 last_reviewed: 2026-09-11
 notes: null

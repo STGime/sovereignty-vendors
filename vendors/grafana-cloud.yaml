@@ -27,8 +27,8 @@ one_line_reason: >
   Grafana Labs is Delaware-incorporated even though a large share of engineering is in Sweden.
   EU region on AWS Frankfurt available; the contracting entity anchors CLOUD Act exposure.
 sources:
-  - https://grafana.com/legal/dpa/
-  - https://grafana.com/legal/subprocessors/
+  - https://grafana.com/legal/
+  - https://grafana.com/security/
   - https://grafana.com/legal/privacy-policy/
 last_reviewed: 2026-09-11
 notes: >
