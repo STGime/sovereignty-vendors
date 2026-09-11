@@ -1,0 +1,39 @@
+slug: firebase
+name: Firebase
+category: baas
+contracting_entity: Google LLC
+ultimate_parent: Alphabet Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us-central1
+  - europe-west1
+  - europe-west3
+  - asia-northeast1
+  - southamerica-east1
+subprocessors:
+  - gcp
+eu_alternatives:
+  - eurobase
+  - appwrite
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: red
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Google LLC contracting entity, Alphabet parent, runs on GCP — a US hyperscaler that is
+  itself a US-owned control plane. CLOUD Act reach is direct and unmitigated by region choice.
+sources:
+  - https://firebase.google.com/support/privacy
+  - https://cloud.google.com/terms/data-processing-addendum
+  - https://policies.google.com/privacy
+last_reviewed: 2026-09-11
+notes: null

@@ -1,0 +1,38 @@
+slug: cloudflare
+name: Cloudflare
+category: cdn
+contracting_entity: Cloudflare, Inc.
+ultimate_parent: Cloudflare, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - global-edge
+subprocessors: []
+eu_alternatives:
+  - bunny
+  - fastly-eu
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+  - EU
+  - SG
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  US-incorporated (Cloudflare, Inc.); the Data Localization Suite is a meaningful mitigation
+  on the data-location + processing dimensions, but the parent-jurisdiction fact is unchanged
+  and the CLOUD Act still reaches the entity. Overall red by the "worst dimension wins" rule.
+sources:
+  - https://www.cloudflare.com/trust-hub/gdpr/
+  - https://blog.cloudflare.com/data-localization-suite/
+  - https://www.cloudflare.com/cloudflare-customer-dpa/
+last_reviewed: 2026-09-11
+notes: >
+  Cloudflare's Data Localization Suite is an amber-worthy mitigation for the data-location
+  dimension but does not change the entity-control fundamental. Include the Suite pricing in
+  any recommendation to a buyer who ends up here.

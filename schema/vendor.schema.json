@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/eurobase/sovereignty-vendors/main/schema/vendor.schema.json",
+  "title": "Vendor",
+  "description": "A single vendor entry in the sovereignty-vendors dataset. Every YAML file under `vendors/` must validate against this schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "name",
+    "category",
+    "contracting_entity",
+    "ultimate_parent",
+    "parent_jurisdiction",
+    "entity_jurisdiction",
+    "ratings",
+    "one_line_reason",
+    "sources",
+    "last_reviewed"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{0,63}$",
+      "description": "URL-safe identifier. Must match the filename (minus .yaml)."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "Human-readable vendor name as it appears on their marketing site."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "hosting",
+        "db",
+        "baas",
+        "auth",
+        "payments",
+        "email",
+        "analytics",
+        "cdn",
+        "error",
+        "ai",
+        "ci",
+        "storage",
+        "monitoring",
+        "communication",
+        "other"
+      ]
+    },
+    "contracting_entity": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Legal name of the entity that appears on the customer's contract / DPA (e.g. 'Supabase, Inc.', 'Cloudflare, Inc.', 'Scaleway SAS')."
+    },
+    "ultimate_parent": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Ultimate corporate parent. Same as contracting_entity for independents; different when the vendor is owned by e.g. Alphabet / Amazon / Microsoft."
+    },
+    "parent_jurisdiction": {
+      "$ref": "#/$defs/jurisdictionCode",
+      "description": "Country / bloc of the ultimate parent's incorporation. ISO 3166-1 alpha-2 or 'EU' for the bloc."
+    },
+    "entity_jurisdiction": {
+      "$ref": "#/$defs/jurisdictionCode",
+      "description": "Country / bloc of the contracting entity. Often the same as parent, sometimes different (e.g. an EU subsidiary of a US parent)."
+    },
+    "hosting_regions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Regions where the vendor stores customer data (short codes as they appear in the vendor's own docs)."
+    },
+    "subprocessors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+      },
+      "description": "Slugs of other vendors in this dataset that this vendor uses as subprocessors (e.g. `aws`, `gcp`). Cascades in the scoring model — a red subprocessor pulls the overall rating down."
+    },
+    "eu_alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]{0,63}$"
+      },
+      "description": "Slugs of EU-headquartered alternatives in the same category. Used to suggest swap candidates on the checker's report page."
+    },
+    "transfer_mechanism": {
+      "type": "string",
+      "enum": [
+        "none",
+        "SCCs",
+        "SCCs+TIA",
+        "adequacy",
+        "DPF",
+        "binding_corporate_rules",
+        "unclear"
+      ],
+      "description": "How the vendor claims to legalize transfers of EU personal data. `none` = no transfer occurs (fully EU-hosted, no US access)."
+    },
+    "operational_access_regions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/jurisdictionCode" },
+      "description": "Countries where support / SRE staff can access production data. ISO 3166-1 alpha-2 codes or 'EU' for the bloc. This is the most commonly overlooked transfer channel."
+    },
+    "ratings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "entity_control",
+        "data_location",
+        "operational_access",
+        "subprocessor_chain",
+        "transfer_mechanism",
+        "overall"
+      ],
+      "properties": {
+        "entity_control": { "$ref": "#/$defs/ratingColor" },
+        "data_location": { "$ref": "#/$defs/ratingColor" },
+        "operational_access": { "$ref": "#/$defs/ratingColor" },
+        "subprocessor_chain": { "$ref": "#/$defs/ratingColor" },
+        "transfer_mechanism": { "$ref": "#/$defs/ratingColor" },
+        "overall": { "$ref": "#/$defs/ratingColor" }
+      }
+    },
+    "one_line_reason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300,
+      "description": "One-sentence explanation of the overall rating, written for a non-lawyer developer. Displayed on the checker's per-vendor card."
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "URLs OR relative paths under sources/. At least one required — a rating without a source is not a rating."
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of the most recent review, YYYY-MM-DD. CI flags entries older than 180 days."
+    },
+    "notes": {
+      "type": ["string", "null"],
+      "description": "Optional maintainer note. Not shown on the checker's public card."
+    },
+    "self_disclosure": {
+      "type": "boolean",
+      "default": false,
+      "description": "Set true for Eurobase's own entry so the checker's UI can render a conflict-of-interest banner. Do not set on any other vendor."
+    }
+  },
+  "$defs": {
+    "ratingColor": {
+      "type": "string",
+      "enum": ["red", "amber", "green"]
+    },
+    "jurisdictionCode": {
+      "type": "string",
+      "pattern": "^([A-Z]{2}|EU)$",
+      "description": "ISO 3166-1 alpha-2 country code (e.g. US, DE, FR, IE, SG) or the special value EU for the bloc."
+    }
+  }
+}

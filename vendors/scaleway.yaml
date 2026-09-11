@@ -1,0 +1,32 @@
+slug: scaleway
+name: Scaleway
+category: hosting
+contracting_entity: Scaleway SAS
+ultimate_parent: Iliad SA
+parent_jurisdiction: EU
+entity_jurisdiction: EU
+hosting_regions:
+  - fr-par
+  - nl-ams
+  - pl-waw
+subprocessors: []
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: green
+  operational_access: green
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: green
+one_line_reason: >
+  French SAS, ultimate parent Iliad (publicly listed on Euronext Paris), datacentres and
+  operations in France, Netherlands, and Poland. No US corporate control anywhere in the chain.
+sources:
+  - https://www.scaleway.com/en/dpa/
+  - https://www.scaleway.com/en/security-and-compliance/
+  - https://www.scaleway.com/en/about/
+last_reviewed: 2026-09-11
+notes: null

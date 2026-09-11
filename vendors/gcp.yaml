@@ -1,0 +1,40 @@
+slug: gcp
+name: Google Cloud Platform
+category: hosting
+contracting_entity: Google Ireland Limited
+ultimate_parent: Alphabet Inc.
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - us-central1
+  - us-east1
+  - europe-west1
+  - europe-west3
+  - europe-north1
+  - asia-northeast1
+subprocessors: []
+eu_alternatives:
+  - scaleway
+  - ovhcloud
+  - hetzner
+transfer_mechanism: DPF
+operational_access_regions:
+  - US
+  - IE
+  - IN
+ratings:
+  entity_control: red
+  data_location: green
+  operational_access: amber
+  subprocessor_chain: green
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Google Ireland Limited signs the DPA but is a subsidiary of Alphabet Inc. (US).
+  CLOUD Act applies to the parent, not the signing entity.
+sources:
+  - https://cloud.google.com/terms/data-processing-addendum
+  - https://cloud.google.com/privacy/gdpr
+  - https://policies.google.com/privacy
+last_reviewed: 2026-09-11
+notes: null

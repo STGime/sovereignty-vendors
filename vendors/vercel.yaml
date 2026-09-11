@@ -1,0 +1,37 @@
+slug: vercel
+name: Vercel
+category: hosting
+contracting_entity: Vercel Inc.
+ultimate_parent: Vercel Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - iad1
+  - sfo1
+  - fra1
+  - dub1
+  - sin1
+subprocessors:
+  - aws
+eu_alternatives:
+  - scaleway
+  - netlify-eu
+transfer_mechanism: SCCs
+operational_access_regions:
+  - US
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: red
+  subprocessor_chain: red
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Vercel Inc. (US) contracting entity, runs on AWS (US-owned control plane).
+  EU region is available for edge caching but the platform's control plane is US-jurisdictional.
+sources:
+  - https://vercel.com/legal/dpa
+  - https://vercel.com/legal/subprocessors
+  - https://vercel.com/docs/edge-network/regions
+last_reviewed: 2026-09-11
+notes: null

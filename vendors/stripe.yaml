@@ -1,0 +1,36 @@
+slug: stripe
+name: Stripe
+category: payments
+contracting_entity: Stripe Payments Europe, Limited
+ultimate_parent: Stripe, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: EU
+hosting_regions:
+  - us-east
+  - us-west
+  - eu-west
+subprocessors:
+  - aws
+eu_alternatives:
+  - mollie
+  - adyen
+transfer_mechanism: SCCs+TIA
+operational_access_regions:
+  - US
+  - IE
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: red
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Stripe Payments Europe (Dublin) signs European customer contracts but is a
+  subsidiary of Stripe, Inc. (Delaware). CLOUD Act reach applies to the parent.
+sources:
+  - https://stripe.com/legal/dpa
+  - https://stripe.com/legal/privacy-center
+  - https://stripe.com/legal/service-providers
+last_reviewed: 2026-09-11
+notes: null

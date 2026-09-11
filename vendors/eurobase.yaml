@@ -1,0 +1,37 @@
+slug: eurobase
+name: Eurobase
+category: baas
+contracting_entity: Eurobase OÜ
+ultimate_parent: Eurobase OÜ
+parent_jurisdiction: EU
+entity_jurisdiction: EU
+hosting_regions:
+  - fr-par
+subprocessors:
+  - scaleway
+  - mollie
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: green
+  operational_access: green
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: green
+one_line_reason: >
+  Estonian OÜ, EU-hosted on Scaleway (France), EU payments via Mollie (Netherlands). No US
+  entity, no US processor, no data transfer requiring SCCs or TIA.
+sources:
+  - https://eurobase.app/security
+  - https://eurobase.app/legal/dpa
+  - https://eurobase.app/pricing
+last_reviewed: 2026-09-11
+self_disclosure: true
+notes: >
+  This dataset is maintained by Eurobase OÜ and Eurobase is graded here. The checker's UI must
+  render a visible conflict-of-interest banner on this vendor page. If you are reviewing this
+  rating and disagree, please open an issue — grading ourselves green while denying others the
+  same grade would destroy the credibility of the dataset the first time someone noticed.

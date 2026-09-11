@@ -1,0 +1,38 @@
+slug: supabase
+name: Supabase
+category: baas
+contracting_entity: Supabase, Inc.
+ultimate_parent: Supabase, Inc.
+parent_jurisdiction: US
+entity_jurisdiction: US
+hosting_regions:
+  - us-east-1
+  - us-west-1
+  - eu-central-1
+  - eu-west-2
+  - ap-southeast-1
+subprocessors:
+  - aws
+eu_alternatives:
+  - eurobase
+  - appwrite
+transfer_mechanism: SCCs
+operational_access_regions:
+  - US
+  - IN
+ratings:
+  entity_control: red
+  data_location: amber
+  operational_access: amber
+  subprocessor_chain: amber
+  transfer_mechanism: amber
+  overall: red
+one_line_reason: >
+  Contracting entity Supabase, Inc. is US-incorporated and subject to the CLOUD Act
+  regardless of the EU region configured; runs on AWS as sole hyperscaler subprocessor.
+sources:
+  - https://supabase.com/docs/guides/platform/data-storage
+  - https://supabase.com/legal/dpa
+  - https://supabase.com/dashboard/org/[org_id]/subprocessors
+last_reviewed: 2026-09-11
+notes: null

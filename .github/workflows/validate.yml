@@ -1,0 +1,39 @@
+name: Validate vendors
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Validate every vendor entry against the JSON Schema
+        run: npm run validate
+
+  stale-check:
+    # Non-blocking: reports stale entries as warnings on push to main,
+    # so contributors see the list without their PR failing on entries
+    # they didn't touch.
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci --no-audit --no-fund
+      - name: Report entries older than 180 days
+        run: npm run validate:strict || true

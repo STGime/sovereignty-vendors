@@ -1,0 +1,19 @@
+{
+  "name": "sovereignty-vendors",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Open, community-maintained ratings of common developer-stack vendors by their exposure to non-EU legal jurisdiction (CLOUD Act, FISA 702).",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "validate:strict": "node scripts/validate.mjs --strict"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "yaml": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
