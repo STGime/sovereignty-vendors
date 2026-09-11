@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/eurobase/sovereignty-vendors/main/schema/vendor.schema.json",
+  "$id": "https://raw.githubusercontent.com/STGime/sovereignty-vendors/main/schema/vendor.schema.json",
   "title": "Vendor",
   "description": "A single vendor entry in the sovereignty-vendors dataset. Every YAML file under `vendors/` must validate against this schema.",
   "type": "object",
