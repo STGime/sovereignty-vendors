@@ -22,7 +22,7 @@ ratings:
   entity_control: red
   data_location: amber
   operational_access: amber
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: amber
   overall: red
 one_line_reason: >
@@ -30,7 +30,7 @@ one_line_reason: >
   available; the corporate entity's US anchor remains.
 sources:
   - https://www.cockroachlabs.com/docs/cockroachcloud/security-overview
-  - https://www.cockroachlabs.com/subprocessors/
+  - https://www.cockroachlabs.com/
   - https://www.cockroachlabs.com/privacy/
 last_reviewed: 2026-09-11
 notes: >

@@ -27,8 +27,8 @@ one_line_reason: >
   Auth0 is an Okta subsidiary; both entities are US-incorporated. EU tenant region on AWS
   Frankfurt is available but does not remove Okta's US jurisdiction over the contract.
 sources:
-  - https://www.okta.com/agreements/master-subscription-agreement-online/
-  - https://www.okta.com/agreements/subprocessors/
-  - https://www.okta.com/privacy-policy/
+  - https://www.okta.com/trust/
+  - https://www.okta.com/agreements/
+  - https://auth0.com/docs/secure/data-privacy-and-compliance
 last_reviewed: 2026-09-11
 notes: null

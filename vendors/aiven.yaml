@@ -19,15 +19,16 @@ ratings:
   entity_control: green
   data_location: amber
   operational_access: green
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: green
-  overall: red
+  overall: amber
 one_line_reason: >
-  Finnish OY, EU-hosted contracting entity and EU-only support ops. But the platform runs on
-  AWS / GCP / Azure — so any exposure of the underlying hyperscaler cascades through.
+  Finnish OY, EU-hosted contracting entity and EU-only support ops. Runs on AWS / GCP / Azure —
+  so the underlying hyperscaler's exposure cascades in, but the Finnish anchor sets it apart
+  from pure-US managed-DB vendors.
 sources:
-  - https://aiven.io/legal/dpa
-  - https://aiven.io/legal/subprocessors
+  - https://aiven.io/dpa
+  - https://aiven.io/subprocessors
   - https://aiven.io/privacy
 last_reviewed: 2026-09-11
 notes: >

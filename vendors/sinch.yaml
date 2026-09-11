@@ -28,9 +28,9 @@ one_line_reason: >
   Swedish AB publicly listed on Nasdaq Stockholm. Ultimate parent is EU; some infrastructure
   rides on AWS, some on Sinch's own network. Route-dependent — check per product line.
 sources:
-  - https://www.sinch.com/legal/data-processing-addendum/
-  - https://www.sinch.com/legal/subprocessors/
-  - https://www.sinch.com/legal/privacy-policy/
+  - https://www.sinch.com/legal/
+  - https://www.sinch.com/legal/privacy-notice/
+  - https://www.sinch.com/
 last_reviewed: 2026-09-11
 notes: >
   Sinch's US subsidiaries (Mailgun, Mailjet-US) are US corporations subject to CLOUD Act despite

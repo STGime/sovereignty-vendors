@@ -26,9 +26,9 @@ one_line_reason: >
   UK limited company, EU-Ireland hosting on AWS. UK adequacy decision covers transfers, so no
   SCCs needed. AWS EMEA dependency drags subprocessor chain to amber.
 sources:
-  - https://www.paddle.com/legal/dpa
-  - https://www.paddle.com/legal/subprocessors
+  - https://www.paddle.com/legal
   - https://www.paddle.com/legal/privacy
+  - https://www.paddle.com/
 last_reviewed: 2026-09-11
 notes: >
   UK adequacy is under Commission review (expires 2026). If not renewed, this entry moves to

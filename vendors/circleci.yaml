@@ -19,15 +19,15 @@ ratings:
   entity_control: red
   data_location: red
   operational_access: red
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: amber
   overall: red
 one_line_reason: >
   Delaware corporation on AWS and GCP US regions. No EU cloud tenancy option; the 2023 incident
   disclosure confirmed all customer secrets sit in US-controlled stores.
 sources:
-  - https://circleci.com/legal/data-processing-addendum/
-  - https://circleci.com/legal/sub-processors/
+  - https://circleci.com/
+  - https://circleci.com/security/
   - https://circleci.com/privacy/
 last_reviewed: 2026-09-11
 notes: null

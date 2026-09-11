@@ -27,8 +27,8 @@ one_line_reason: >
   Delaware corporation, private since Francisco Partners' 2023 take-private. EU region on AWS
   Dublin available; the contracting entity remains US.
 sources:
-  - https://newrelic.com/termsandconditions/data-processing-notice
-  - https://newrelic.com/termsandconditions/services-subprocessors
-  - https://newrelic.com/termsandconditions/privacy-notice
+  - https://newrelic.com/termsandconditions
+  - https://newrelic.com/security
+  - https://newrelic.com/termsandconditions/privacy
 last_reviewed: 2026-09-11
 notes: null

@@ -26,7 +26,7 @@ one_line_reason: >
   Canadian entity (BC), covered by the EU-Canada adequacy decision. Not subject to the CLOUD Act,
   but Canadian production access still counts as a cross-border transfer.
 sources:
-  - https://usefathom.com/data-processing-agreement
+  - https://usefathom.com/legal/dpa
   - https://usefathom.com/privacy
   - https://usefathom.com/about
 last_reviewed: 2026-09-11

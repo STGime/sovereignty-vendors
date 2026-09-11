@@ -26,8 +26,8 @@ one_line_reason: >
   Delaware corporation with EU regions in Amsterdam, London, and Paris. Pinning a bucket to
   EU-Central still leaves the contracting entity subject to the CLOUD Act.
 sources:
-  - https://wasabi.com/dpa/
-  - https://wasabi.com/subprocessors/
-  - https://wasabi.com/legal/privacy-notice/
+  - https://wasabi.com/legal/
+  - https://wasabi.com/legal
+  - https://wasabi.com/
 last_reviewed: 2026-09-11
 notes: null

@@ -20,15 +20,15 @@ ratings:
   entity_control: red
   data_location: amber
   operational_access: amber
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: amber
   overall: red
 one_line_reason: >
   US-listed corporation (NASDAQ: AMPL) running on Google Cloud. EU residency exists on
   enterprise plans; the contracting entity remains US-based and CLOUD-Act-exposed.
 sources:
-  - https://amplitude.com/legal/dpa
+  - https://amplitude.com/legal
   - https://amplitude.com/security
-  - https://amplitude.com/legal/privacy
+  - https://amplitude.com/trust
 last_reviewed: 2026-09-11
 notes: null

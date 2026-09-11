@@ -30,8 +30,8 @@ one_line_reason: >
   US infrastructure remains.
 sources:
   - https://www.mailgun.com/legal/dpa/
-  - https://www.mailgun.com/legal/subprocessors/
-  - https://www.mailgun.com/legal/privacy-policy/
+  - https://www.mailgun.com/
+  - https://www.mailgun.com/privacy-policy/
 last_reviewed: 2026-09-11
 notes: >
   Interesting case for the "parent shields subsidiary" myth — Sinch's Swedish ownership does not

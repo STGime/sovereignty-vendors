@@ -25,8 +25,8 @@ one_line_reason: >
   NYSE-listed US corporation (FSLY). Global edge network but the corporate entity and control
   plane are US-based, so CLOUD Act applies to logs and any origin-shielding.
 sources:
-  - https://www.fastly.com/documents/data-processing-addendum
-  - https://www.fastly.com/trust/privacy
-  - https://www.fastly.com/subprocessors
+  - https://www.fastly.com/trust
+  - https://www.fastly.com/privacy
+  - https://www.fastly.com/
 last_reviewed: 2026-09-11
 notes: null

@@ -25,7 +25,7 @@ ratings:
   entity_control: red
   data_location: amber
   operational_access: red
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: amber
   overall: red
 one_line_reason: >

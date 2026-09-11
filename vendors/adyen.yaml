@@ -1,0 +1,34 @@
+slug: adyen
+name: Adyen
+category: payments
+contracting_entity: Adyen N.V.
+ultimate_parent: Adyen N.V.
+parent_jurisdiction: NL
+entity_jurisdiction: NL
+hosting_regions:
+  - eu
+  - us
+  - ap
+subprocessors: []
+eu_alternatives: []
+transfer_mechanism: none
+operational_access_regions:
+  - EU
+ratings:
+  entity_control: green
+  data_location: green
+  operational_access: green
+  subprocessor_chain: green
+  transfer_mechanism: green
+  overall: green
+one_line_reason: >
+  Dutch N.V. publicly listed on Euronext Amsterdam. Regulated as a bank by DNB; operates its
+  own core payments infrastructure. No US corporate control.
+sources:
+  - https://www.adyen.com/legal
+  - https://www.adyen.com/policies-and-disclaimer/privacy-policy
+  - https://www.adyen.com/
+last_reviewed: 2026-09-11
+notes: >
+  Adyen serves global merchants and has US datacentres for local acquiring, but the contracting
+  entity is Dutch and EU customer data is processed under Dutch jurisdiction by default.

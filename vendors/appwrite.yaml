@@ -22,16 +22,16 @@ ratings:
   entity_control: red
   data_location: amber
   operational_access: amber
-  subprocessor_chain: red
+  subprocessor_chain: amber
   transfer_mechanism: amber
   overall: red
 one_line_reason: >
   Appwrite Cloud is a Delaware corporation with headquarters in Tel Aviv, running on Google
   Cloud. Frankfurt region available; the US contracting entity and GCP dependency both apply.
 sources:
-  - https://appwrite.io/dpa
-  - https://appwrite.io/subprocessors
-  - https://appwrite.io/privacy
+  - https://appwrite.io/policy/privacy
+  - https://appwrite.io/policy/terms
+  - https://appwrite.io/
 last_reviewed: 2026-09-11
 notes: >
   Self-hosted Appwrite (OSS) on your own EU infrastructure is a green path. This rating covers
